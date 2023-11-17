@@ -19,3 +19,4 @@ spec:
         image: docker.io/{docker_user}/tensorflow-{model_name}:{github.sha}
         ports:
         - containerPort: 8501
+        
